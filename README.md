@@ -18,4 +18,4 @@ To change the encrypted file back to a decrypted file, pass the outputted encryp
 ![Screenshot](images/dec.png)
 I pass the outputted file ```input.enc``` as an input file, have the program create a new output file ```input.txt``` and pass in the same key file (key.bravo).
 
-W.I.P
+The file endings do not have to be ```.enc```, ```.dec```, or ```.txt```. They can be any file endings.
