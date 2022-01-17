@@ -12,6 +12,10 @@ The order of the input file (-i), output file (-o) and key file (-k) can be spec
 
 For example, I pass through the file ```input.dec``` with the name of the output file I want (which the program creates) and a key file (key.bravo).
 ![Screenshot](images/enc.png)
-As you can see, the output file, ```input.enc``` is different from ```input.dec```.
+As you can see the output file, ```input.enc```, is different from ```input.dec```.
+
+To change the encrypted file back to a decrypted file, pass the outputted encrypted file as an input with the same encryption key and overwrite or make a new file for the new output file.
+![Screenshot](images/dec.png)
+I pass the outputted file ```input.enc``` as an input file, have the program create a new output file ```input.txt``` and pass in the same key file (key.bravo).
 
 W.I.P
